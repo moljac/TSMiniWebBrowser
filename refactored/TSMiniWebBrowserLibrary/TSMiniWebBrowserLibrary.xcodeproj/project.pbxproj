@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6106EB3B1A2BD640005AC8FE /* TSMiniWebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6106EB391A2BD640005AC8FE /* TSMiniWebBrowser.m */; };
+		61B301431A2BD5C800A5015A /* libTSMiniWebBrowserLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B301371A2BD5C800A5015A /* libTSMiniWebBrowserLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61B301441A2BD5C800A5015A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61B3012F1A2BD5C800A5015A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B301361A2BD5C800A5015A;
+			remoteInfo = TSMiniWebBrowserLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		61B301351A2BD5C800A5015A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6106EB381A2BD640005AC8FE /* TSMiniWebBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMiniWebBrowser.h; sourceTree = "<group>"; };
+		6106EB391A2BD640005AC8FE /* TSMiniWebBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMiniWebBrowser.m; sourceTree = "<group>"; };
+		6106EB3A1A2BD640005AC8FE /* TSMiniWebBrowser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMiniWebBrowser.xib; sourceTree = "<group>"; };
+		61B301371A2BD5C800A5015A /* libTSMiniWebBrowserLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSMiniWebBrowserLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B301421A2BD5C800A5015A /* TSMiniWebBrowserLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSMiniWebBrowserLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B301481A2BD5C800A5015A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61B301341A2BD5C800A5015A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B3013F1A2BD5C800A5015A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B301431A2BD5C800A5015A /* libTSMiniWebBrowserLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61B3012E1A2BD5C800A5015A = {
+			isa = PBXGroup;
+			children = (
+				6106EB381A2BD640005AC8FE /* TSMiniWebBrowser.h */,
+				6106EB391A2BD640005AC8FE /* TSMiniWebBrowser.m */,
+				6106EB3A1A2BD640005AC8FE /* TSMiniWebBrowser.xib */,
+				61B301391A2BD5C800A5015A /* TSMiniWebBrowserLibrary */,
+				61B301461A2BD5C800A5015A /* TSMiniWebBrowserLibraryTests */,
+				61B301381A2BD5C800A5015A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61B301381A2BD5C800A5015A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61B301371A2BD5C800A5015A /* libTSMiniWebBrowserLibrary.a */,
+				61B301421A2BD5C800A5015A /* TSMiniWebBrowserLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61B301391A2BD5C800A5015A /* TSMiniWebBrowserLibrary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TSMiniWebBrowserLibrary;
+			sourceTree = "<group>";
+		};
+		61B301461A2BD5C800A5015A /* TSMiniWebBrowserLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				61B301471A2BD5C800A5015A /* Supporting Files */,
+			);
+			path = TSMiniWebBrowserLibraryTests;
+			sourceTree = "<group>";
+		};
+		61B301471A2BD5C800A5015A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61B301481A2BD5C800A5015A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61B301361A2BD5C800A5015A /* TSMiniWebBrowserLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B3014B1A2BD5C800A5015A /* Build configuration list for PBXNativeTarget "TSMiniWebBrowserLibrary" */;
+			buildPhases = (
+				61B301331A2BD5C800A5015A /* Sources */,
+				61B301341A2BD5C800A5015A /* Frameworks */,
+				61B301351A2BD5C800A5015A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSMiniWebBrowserLibrary;
+			productName = TSMiniWebBrowserLibrary;
+			productReference = 61B301371A2BD5C800A5015A /* libTSMiniWebBrowserLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		61B301411A2BD5C800A5015A /* TSMiniWebBrowserLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B3014E1A2BD5C800A5015A /* Build configuration list for PBXNativeTarget "TSMiniWebBrowserLibraryTests" */;
+			buildPhases = (
+				61B3013E1A2BD5C800A5015A /* Sources */,
+				61B3013F1A2BD5C800A5015A /* Frameworks */,
+				61B301401A2BD5C800A5015A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B301451A2BD5C800A5015A /* PBXTargetDependency */,
+			);
+			name = TSMiniWebBrowserLibraryTests;
+			productName = TSMiniWebBrowserLibraryTests;
+			productReference = 61B301421A2BD5C800A5015A /* TSMiniWebBrowserLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61B3012F1A2BD5C800A5015A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Miljenko Cvjetko";
+				TargetAttributes = {
+					61B301361A2BD5C800A5015A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					61B301411A2BD5C800A5015A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 61B301321A2BD5C800A5015A /* Build configuration list for PBXProject "TSMiniWebBrowserLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61B3012E1A2BD5C800A5015A;
+			productRefGroup = 61B301381A2BD5C800A5015A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61B301361A2BD5C800A5015A /* TSMiniWebBrowserLibrary */,
+				61B301411A2BD5C800A5015A /* TSMiniWebBrowserLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61B301401A2BD5C800A5015A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61B301331A2BD5C800A5015A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6106EB3B1A2BD640005AC8FE /* TSMiniWebBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B3013E1A2BD5C800A5015A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61B301451A2BD5C800A5015A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B301361A2BD5C800A5015A /* TSMiniWebBrowserLibrary */;
+			targetProxy = 61B301441A2BD5C800A5015A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61B301491A2BD5C800A5015A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61B3014A1A2BD5C800A5015A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61B3014C1A2BD5C800A5015A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		61B3014D1A2BD5C800A5015A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		61B3014F1A2BD5C800A5015A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TSMiniWebBrowserLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61B301501A2BD5C800A5015A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TSMiniWebBrowserLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61B301321A2BD5C800A5015A /* Build configuration list for PBXProject "TSMiniWebBrowserLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B301491A2BD5C800A5015A /* Debug */,
+				61B3014A1A2BD5C800A5015A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B3014B1A2BD5C800A5015A /* Build configuration list for PBXNativeTarget "TSMiniWebBrowserLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B3014C1A2BD5C800A5015A /* Debug */,
+				61B3014D1A2BD5C800A5015A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B3014E1A2BD5C800A5015A /* Build configuration list for PBXNativeTarget "TSMiniWebBrowserLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B3014F1A2BD5C800A5015A /* Debug */,
+				61B301501A2BD5C800A5015A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61B3012F1A2BD5C800A5015A /* Project object */;
+}

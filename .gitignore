@@ -1,4 +1,4 @@
-# Exclude the build directory
+﻿# Exclude the build directory
 build/*
  
 # Exclude temp nibs and swap files
@@ -18,3 +18,7 @@ build/*
 #*.xcworkspace
 xcuserdata
 UserInterfaceState.xcuserstate
+
+**DerivedData**
+**build**
+
